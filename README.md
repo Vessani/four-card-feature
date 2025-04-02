@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github solution](https://github.com/Vessani/four-card-feature.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Solution web site](https://vessani.github.io/four-card-feature/)
 
 ## My process
 
@@ -46,4 +46,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/vessani)
+- Frontend Mentor - [@vessani](https://www.frontendmentor.io/profile/vessani)
