@@ -194,7 +194,10 @@ body {
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-200);
-  
+  }
+
+  #content-main p {
+    text-align: center;
   }
 
   .content-container {
