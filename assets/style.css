@@ -1,0 +1,214 @@
+:root {
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+
+  --color-white: #ffffff;
+  --color-grey-500: #4d4f62;
+  --color-grey-400: #6a7178;
+  --color-cyan: #44d3d2;
+  --color-red: #ea5454;
+  --color-blue: #549ef2;
+  --color-orange: #fcae4a;
+
+  --text-preset-1: 36px;
+  --text-mobile-1: 24px;
+  --text-preset-3: 20px;
+  --text-preset-4: 15px;
+  --text-preset-5: 13px;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/Poppins/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  max-width: 375px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 56px 30px 46px 29px;
+  gap: 60px;
+  background: #fafafa;
+}
+
+#content-main {
+  display: flex;
+  width: 316px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-200);
+  color: var(--color-grey-500);
+  font-family: "Poppins", sans-serif;
+}
+
+#content-main h1 {
+  font-size: var(--text-mobile-1);
+  font-style: normal;
+  font-weight: 275;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+
+#content-main span {
+  font-size: var(--text-mobile-1);
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+
+#content-main p {
+  font-size: var(--text-preset-4);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.104px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-400);
+}
+
+.content {
+  height: 250px;
+  width: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--spacing-400);
+  gap: var(--spacing-400);
+  border-radius: var(--spacing-100);
+  background: var(--color-white);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+#border-cyan {
+  border-top: 4px solid var(--color-cyan);
+}
+
+#border-red {
+  border-top: 4px solid var(--color-red);
+}
+
+#border-blue {
+  border-top: 4px solid var(--color-blue);
+}
+
+#border-orange {
+  border-top: 4px solid var(--color-orange);
+}
+.text-primary {
+  font-size: var(--text-preset-3);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135%;
+  align-self: start;
+  color: var(--color-grey-500);
+}
+
+.text-secundary {
+  font-size: var(--text-preset-5);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--color-grey-400);
+}
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 768px;
+    padding: 80px 54px;
+    gap: 74px;
+  }
+
+  #content-main {
+    width: 100%;
+    max-width: 540px;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-200);
+    height: 100%;
+  }
+
+  #content-main h1 {
+    font-size: var(--text-preset-1);
+  }
+
+  #content-main span {
+    font-size: var(--text-preset-1);
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-400);
+  }
+
+  #conteiner-division {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--spacing-400);
+  }
+}
+
+@media screen and (min-width: 1440px){
+  
+  body {  
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 74px;
+    padding: 128px 163px 
+  }
+
+  #content-main {
+    width: 100%;
+    display: flex;
+    max-width: 540px;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-200);
+  
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-400);
+  }
+
+  #conteiner-division {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-400);
+  }
+}
