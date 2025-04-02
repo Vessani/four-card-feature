@@ -31,7 +31,7 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   display: flex;
   width: 100%;
   max-width: 375px;
@@ -131,7 +131,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  body {
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,7 +177,7 @@ body {
 
 @media screen and (min-width: 1440px){
   
-  body {  
+  .container {  
     width: 100%;
     max-width: 1440px;
     display: flex;
