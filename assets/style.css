@@ -196,6 +196,9 @@ body {
     gap: var(--spacing-200);
   }
 
+  #content-main h1 {
+    text-align: center;
+  }
   #content-main p {
     text-align: center;
   }
